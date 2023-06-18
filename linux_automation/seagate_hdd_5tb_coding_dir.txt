@@ -1,0 +1,13 @@
+/pth/to/algebra
+/pth/to//android
+/pth/to//c_cpp
+/pth/to//CCNA
+/pth/to//coding_interviews
+/pth/to//Java
+/pth/to//Kotlin
+/pth/to//Linux
+/pth/to//menta
+/pth/to//Oracle
+/pth/to//PHP
+/pth/to//Python
+/pth/to//vue.js

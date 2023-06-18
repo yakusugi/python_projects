@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Specify the path to the zip file
+zip_file="path/to/file.zip"
+
+# Authenticate with Dropbox API
+access_token="YOUR_ACCESS_TOKEN"
+
+# Specify the destination folder on Dropbox
+destination="/path/on/dropbox"
+
+# Send the zip file to Dropbox
+curl -X POST https://content.dropboxapi.com/2/files/upload \
+    --header "Authorization: Bearer $access_token" \
+    --header "Dropbox-API-Arg: {\"path\": \"$destination/$zip_file\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}" \
+    --header "Content-Type: application/octet-stream" \
+    --data-binary "@$zip_file"

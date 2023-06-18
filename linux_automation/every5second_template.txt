@@ -1,0 +1,1 @@
+"sudo ln -s /shares/smb/seagate_hdd_5tb/Python/linux_automation/every5second.py /usr/local/bin/every5second"

@@ -1,0 +1,9 @@
+johnito@skynewubuntuserver:file_management$ pip install openpyxl
+Collecting openpyxl
+  Downloading openpyxl-3.0.10-py2.py3-none-any.whl (242 kB)
+     |████████████████████████████████| 242 kB 2.6 MB/s
+Collecting et-xmlfile
+  Downloading et_xmlfile-1.1.0-py3-none-any.whl (4.7 kB)
+Installing collected packages: et-xmlfile, openpyxl
+Successfully installed et-xmlfile-1.1.0 openpyxl-3.0.10
+johnito@skynewubuntuserver:file_management$
